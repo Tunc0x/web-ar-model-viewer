@@ -97,10 +97,6 @@ web-ar-model-viewer/
 
 The original Unity project is kept private. This public repository contains the exported WebGL build used for the hosted demonstration.
 
-A recorded excerpt of the application is available on my portfolio:
-
-**[View project demo](https://tuncay-portfolio.pages.dev/)**
-
 ## Running the build
 
 Because browser camera access requires a secure context, run the application through HTTPS or a local web server rather than opening `index.html` directly.
