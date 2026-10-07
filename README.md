@@ -52,13 +52,30 @@ The browser layer handles camera access and tracking integration while the Unity
 
 ## Technology
 
-- Unity
+- Unity 2022.3.17f1
 - C#
-- WebGL
-- JavaScript
-- OpenCV.js
-- Web APIs for camera access
+- Imagine WebAR - Image Tracker
+- Unity Input System 1.7.0
+- TextMeshPro 3.0.6
+- Unity UI
+- Unity WebGL
+- JavaScript and browser camera APIs
+- OpenCV.js via the image-tracking runtime
 - GitHub Pages
+
+## Engineering highlights
+
+- **WebAR integration** — integrated and configured Imagine WebAR's image-target tracking pipeline with the Unity WebGL application, connecting tracked targets to interactive Unity content.
+
+- **Direct 3D interaction** — built mobile touch interaction for tracked content, including swipe-based model rotation and raycast-driven interactions with scene objects.
+
+- **Gesture-driven navigation** — implemented swipe detection for navigating between information tabs, including directional gesture recognition and minimum-distance thresholds to reduce accidental input.
+
+- **Reusable interaction components** — created event-driven touch behaviours using Unity events so interactive scene objects could trigger different application actions without tightly coupling the interaction logic to individual objects.
+
+- **Interactive information UI** — developed tabbed content panels with active/inactive visual states, dynamic content switching and audio feedback for touch interactions.
+
+- **AR-oriented UI behaviour** — added camera-facing interface elements and transient fade effects so contextual controls remain readable while staying unobtrusive over the tracked 3D experience.
 
 ## Repository structure
 
