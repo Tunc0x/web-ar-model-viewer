@@ -6,7 +6,7 @@ A browser-based augmented reality experience built with Unity WebGL that places 
 
 ## Demo
 
-[![Web AR Model Viewer demo](docs/web-ar-demo.gif)](https://tuncay-portfolio.pages.dev/)
+[![Web AR Model Viewer demo](docs/webar-demo.gif)](https://tuncay-portfolio.pages.dev/)
 
 > This repository contains the deployable WebGL build.  
 > The underlying Unity project and source code are kept private.
