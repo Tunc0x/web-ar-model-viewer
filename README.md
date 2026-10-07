@@ -2,7 +2,11 @@
 
 A browser-based augmented reality experience built with Unity WebGL that places interactive 3D content on tracked image targets using a mobile device's camera.
 
-**[Launch the live demo](https://tunc0x.github.io/web-ar-model-viewer/)** · **[Watch the demo excerpt](https://tuncay-portfolio.pages.dev/)**
+**[Launch the live demo](https://tunc0x.github.io/web-ar-model-viewer/)** · **[View the full demo excerpt](https://tuncay-portfolio.pages.dev/)**
+
+## Demo
+
+[![Web AR Model Viewer demo](docs/web-ar-demo.gif)](https://tuncay-portfolio.pages.dev/)
 
 > This repository contains the deployable WebGL build.  
 > The underlying Unity project and source code are kept private.
