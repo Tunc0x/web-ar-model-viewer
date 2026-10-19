@@ -11,6 +11,12 @@ A browser-based augmented reality experience built with Unity WebGL that places 
 > This repository contains the deployable WebGL build.  
 > The underlying Unity project and source code are kept private.
 
+## Try it
+
+Open the [live demo](https://tunc0x.github.io/web-ar-model-viewer/) on your phone, allow camera access, and point the camera at the target image [`targets/rocksimg.png`](targets/rocksimg.png). You can show it on another screen or print it.
+
+<img src="targets/rocksimg.png" alt="Rocks image target for the Web AR demo" width="320">
+
 ## Overview
 
 Web AR Model Viewer explores marker-based augmented reality directly in the browser, without requiring a native mobile application.
