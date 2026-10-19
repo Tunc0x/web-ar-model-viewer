@@ -13,9 +13,11 @@ A browser-based augmented reality experience built with Unity WebGL that places 
 
 ## Try it
 
-Open the [live demo](https://tunc0x.github.io/web-ar-model-viewer/) on your phone, allow camera access, and point the camera at the target image [`targets/rocksimg.png`](targets/rocksimg.png). You can show it on another screen or print it.
+Scan the QR code with your phone to open the [live demo](https://tunc0x.github.io/web-ar-model-viewer/), allow camera access, then point the camera at the target image [`targets/rocksimg.png`](targets/rocksimg.png). You can show the target on another screen or print it.
 
-<img src="targets/rocksimg.png" alt="Rocks image target for the Web AR demo" width="320">
+| Open the live demo | Target image |
+| :---: | :---: |
+| [<img src="docs/live-demo-qr.png" alt="QR code linking to the Web AR live demo" width="200">](https://tunc0x.github.io/web-ar-model-viewer/) | <img src="targets/rocksimg.png" alt="Rocks image target for the Web AR demo" width="280"> |
 
 ## Overview
 
