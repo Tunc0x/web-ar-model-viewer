@@ -2,14 +2,11 @@
 
 A browser-based augmented reality experience built with Unity WebGL that places interactive 3D content on tracked image targets using a mobile device's camera.
 
-**[Launch the live demo](https://tunc0x.github.io/web-ar-model-viewer/)** · **[View the full demo excerpt](https://tuncay-portfolio.pages.dev/)**
+**[Launch the live demo](https://tunc0x.github.io/web-ar-model-viewer/)** · **[View the full demo excerpt](https://tuncay-portfolio.pages.dev/#spatial)**
 
 ## Demo
 
-[![Web AR Model Viewer demo](docs/webar-demo.gif)](https://tuncay-portfolio.pages.dev/)
-
-> This repository contains the deployable WebGL build.  
-> The underlying Unity project and source code are kept private.
+[![Web AR Model Viewer demo](docs/webar-demo.gif)](https://tuncay-portfolio.pages.dev/#spatial)
 
 ## Try it
 
@@ -60,11 +57,11 @@ The browser layer handles camera access and tracking integration while the Unity
 
 ## Technology
 
-- Unity 2022.3.17f1
+- Unity
 - C#
 - Imagine WebAR - Image Tracker
-- Unity Input System 1.7.0
-- TextMeshPro 3.0.6
+- Unity Input System
+- TextMeshPro
 - Unity UI
 - Unity WebGL
 - JavaScript and browser camera APIs
@@ -87,7 +84,7 @@ The browser layer handles camera access and tracking integration while the Unity
 
 ## Repository structure
 
-This repository contains the exported application rather than the Unity authoring project.
+This repository contains the exported WebGL build used for the hosted demonstration. The original Unity project is kept private.
 
 ```text
 web-ar-model-viewer/
@@ -100,10 +97,6 @@ web-ar-model-viewer/
 ├── opencv.js           # OpenCV.js runtime
 └── index.html          # WebGL entry point
 ```
-
-## Source availability
-
-The original Unity project is kept private. This public repository contains the exported WebGL build used for the hosted demonstration.
 
 ## Running the build
 
